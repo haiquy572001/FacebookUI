@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.room {
+    margin-top: 20px;
+    background-color: #242526;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+.room .room_create {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.room .room_create .create {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2e89ff;
+}
+
+.room .room_create .create span {
+    font-size: 30px;
+    margin-right: 5px;
+    color: rgb(85, 103, 224);
+}
+
+.room .room_create .create p {
+    margin-bottom: 0px;
+    color: #2e89ff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.roommate {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    overflow-x: auto;
+    margin-left: 20px;
+}
+
+.roommate .avatar_user {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0px 10px;
+}
+
+.roommate .avatar_user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.roommate .avatar_user i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #31a24c;
+    font-size: 10px;
+}

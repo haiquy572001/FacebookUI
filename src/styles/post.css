@@ -1,0 +1,210 @@
+.post_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.post_container .post {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    background-color: #242526;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+
+.header_post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header_post .user {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_post .user .avatar_post {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_post .user .avatar_post img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header_post .user .name_post {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.header_post .user .name_post .username {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+}
+
+.header_post .user .name_post .timer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.text_time p {
+    font-size: 14px !important;
+}
+
+.header_post .user .name_post .timer p {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: grey;
+}
+
+.header_post .user .name_post .timer span {
+    font-size: 16px;
+}
+
+.header_post .user .name_post .timer .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a8abaf;
+}
+
+.update_post {
+    color: #a8abaf;
+}
+
+.update_post span {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.update_post span:hover {
+    background-color: #3a3b3c;
+    border-radius: 24px;
+}
+
+.main_post {
+    width: 100%;
+    height: 100%;
+}
+
+.main_post .content_post {
+    color: white;
+    font-size: 16px;
+    padding: 0px 15px;
+}
+
+.images_post {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.images_post img {
+    width: 100%;
+    height: 100%;
+}
+
+.react_post {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-bottom: 1px solid grey;
+    border-left: 2px solid #16a6fb;
+}
+
+.react_post .react {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.react_post .react .group_react {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react_post .react .group_react span {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.react_post .react .group_react span:nth-child(1) {
+    background-color: #16a6fb;
+}
+
+.react_post .react .group_react span:nth-child(2) {
+    background-color: #f9526e;
+}
+
+.react_post .react p {
+    color: #b0b3b8;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.react_post .comments {
+    color: #b0b3b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react_post .comments p {
+    margin-bottom: 0px;
+}
+
+.group_button_react {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.group_button_react button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    color: #b0b3b8;
+}
+
+.group_button_react button:hover {
+    background-color: #3a3b3c;
+}
+
+.group_button_react button i {
+    margin-right: 10px;
+    font-size: 22px;
+}

@@ -1,0 +1,101 @@
+.private_Function {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.private_Function .user_profile {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80%;
+    margin: auto;
+}
+
+.private_Function .user_profile .circle_user {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.private_Function .user_profile .circle_user:hover {
+    border-radius: 24px;
+    background-color: #3a3b3c;
+}
+
+.private_Function .user_profile .circle_avt {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.private_Function .user_profile .circle_avt img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.private_Function .username {
+    color: white;
+    font-weight: bold;
+    font-size: 20;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.private_Function .username p {
+    margin-bottom: 0;
+}
+
+.user_function {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-right: 6px;
+}
+
+.user_function ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 100%;
+}
+
+.user_function ul li {
+    width: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3a3b3c;
+    margin-left: 6px;
+}
+
+.user_function ul li a {
+    text-decoration: none;
+}
+
+.user_function ul li span {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #b0b3b8;
+}

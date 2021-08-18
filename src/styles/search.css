@@ -1,0 +1,49 @@
+.logo_search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo_search .logo {
+    margin-right: 10px;
+    height: 100%;
+    width: 50px;
+}
+
+.logo_search .search {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.logo_search .search input {
+    padding: 5px;
+    width: 60%;
+    height: 100%;
+    border-radius: 24px;
+    border: 1px solid #3a3b3c;
+    background-color: #3a3b3c;
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+.logo_search .search input::placeholder {
+    color: grey;
+}
+
+.logo_search img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo_search .search i {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: grey;
+}

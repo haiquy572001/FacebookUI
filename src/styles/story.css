@@ -1,0 +1,83 @@
+.story {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.story .story_card {
+  height: 100%;
+  width: 25%;
+  position: relative;
+  margin: 0px 5px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.story .story_card:hover {
+  transform: scale(1.01);
+}
+
+.story .story_card.user {
+  background-image: url("https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-9/179967536_1120260941794588_1712638087287103158_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=-zfNMu-jKgMAX9gclKB&_nc_ht=scontent-xsp1-3.xx&oh=fb0da55f6248d26d8a121dfc57bed31d&oe=60F33619");
+  background-repeat: no-repeat;
+  background-size: 100% 145px;
+  background-color: #242526;
+}
+
+.story .story_card .avatar {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.create_story {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  border-radius: 50%;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 90%);
+  background-color: #2e89ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #242526;
+}
+
+.story .story_card .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #2e89ff;
+}
+
+.story .story_card.user .name {
+  margin-left: 0px;
+}
+
+.story .story_card.user .name p {
+  margin-bottom: 5px;
+}
+
+.story .story_card .name {
+  /* position: absolute;
+  left: 20px;
+  bottom: 0px; */
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.story .story_card .name p {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1.1px;
+}
